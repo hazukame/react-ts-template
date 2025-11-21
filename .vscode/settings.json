@@ -1,0 +1,27 @@
+{
+    "css.lint.unknownAtRules": "ignore",
+    "scss.lint.unknownAtRules": "ignore",
+    "less.lint.unknownAtRules": "ignore",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.vscode": true,
+        "**/node_modules": true,
+        "**/*.config.js": true,
+        "**/*.config.ts": true,
+        "**/tsconfig*.json": true,
+        "**/.gitignore": true,
+        "**/package-lock.json": true
+    }
+}
